@@ -98,7 +98,7 @@ a {
   /* background-position: center; */
 }
 .gradient-color {
-  background-image: linear-gradient(#db4cc3, #a354e1);
+  background-image: linear-gradient(#ffacf1, #a354e1);
   color: transparent;
   -webkit-background-clip: text;
 }
@@ -132,7 +132,7 @@ a {
 /* banner-2-section */
 .banner-2-section{
     background-color: #fff9fc;
-    padding: 100px 10px;
+    padding: 10px 10px;
 }
 .banner-2 div{
     width: 50%;
@@ -152,7 +152,7 @@ a {
 /* videos-section */
 .videos-section{
     text-align: center;
-    padding: 80px 20px;
+    padding: 40px 20px;
 }
 .videos-section h1{
     margin: 20px 0;
@@ -206,4 +206,27 @@ a {
     opacity: 0.8;
 }
 
-    
+/* play-section */
+.play-section{
+    padding: 30px 20px;
+}
+.play-section-text{
+    text-align: right;
+}
+.play-section-text h1, .play-section-text p{
+   width: 70%;
+   margin-bottom: 20px;
+}
+.main-img{
+    width: 100%;
+}
+
+.play-section-img{
+    position: relative;
+}
+.overlap-img img{
+    position: absolute;
+    width: 50%;
+    right: 75%;
+    top: 60%;
+}

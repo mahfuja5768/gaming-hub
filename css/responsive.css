@@ -70,7 +70,7 @@
 /* banner-2-section */
 .banner-2-section{
     background-color: #ffffff;
-    padding: 40px 10px;
+    padding: 20px 10px;
 }
 .banner-2 div{
     width: 100%;
@@ -82,7 +82,7 @@
    margin: 15px 0;
 }
 .banner-2-text p{
-    margin: 30px 0;
+    margin: 20px 0;
 }
 
 /* videos-section */
@@ -95,6 +95,26 @@
 .video-cards{
     grid-template-columns: repeat(1, 1fr);
     gap: 10px;
+}
+
+/* play-section */
+.play-section{
+    padding: 20px 40px;
+}
+.play-section-text{
+    text-align: center;
+}
+.play-section-text h1, .play-section-text p{
+    width: 100%;
+ }
+.main-img{
+    width: 100%;
+}
+.overlap-img img{
+    position: absolute;
+    width: 40%;
+    right: 75%;
+    top: 60%;
 }
 }
 @media screen and (min-width: 577px) and (max-width: 992px) {
@@ -189,5 +209,25 @@
 }
 .video-cards{
     grid-template-columns: repeat(2, 1fr);
+}
+/* play-section */
+.play-section{
+    padding: 20px 70px;
+    flex-direction: column;
+}
+.play-section-text{
+    text-align: center;
+}
+.play-section-text h1, .play-section-text p{
+    width: 100%;
+ }
+.main-img{
+    width: 100%;
+}
+.overlap-img img{
+    position: absolute;
+    width: 45%;
+    right: 75%;
+    top: 60%;
 }
 }
