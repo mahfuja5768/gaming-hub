@@ -16,7 +16,7 @@ img {
   width: 100%;
 }
 h1 {
-  font-size: 40px;
+  font-size: 45px;
   font-weight: 600;
   margin: 0;
 }
@@ -34,12 +34,12 @@ a {
 }
 .btn {
   display: inline-flex;
-  padding: 15px 30px;
+  padding: 10px 25px;
   align-items: flex-start;
   gap: 10px;
   background-color: #ff42a5;
   color: #fff;
-  font-size: 18px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -127,4 +127,25 @@ a {
 }
 .btns button{
     margin-right: 5px;
+}
+
+/* banner-2-section */
+.banner-2-section{
+    background-color: #fff9fc;
+    padding: 100px 10px;
+}
+.banner-2 div{
+    width: 50%;
+}
+.banner-2-text{
+    text-align: end;
+}
+.banner-2-text h1, .banner-2-text p{
+   margin: 10px 0;
+}
+.banner-2-text p small{
+    font-size: 20px;
+}
+.banner-2-text p strong{
+    font-size: 24px;
 }

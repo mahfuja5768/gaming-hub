@@ -67,6 +67,23 @@
     margin-right: 5px;
     margin-top: 10px;
 }
+/* banner-2-section */
+.banner-2-section{
+    background-color: #ffffff;
+    padding: 40px 10px;
+}
+.banner-2 div{
+    width: 100%;
+}
+.banner-2-text{
+    text-align: center;
+}
+.banner-2-text h1, .banner-2-text p{
+   margin: 15px 0;
+}
+.banner-2-text p{
+    margin: 30px 0;
+}
 }
 @media screen and (min-width: 577px) and (max-width: 992px) {
   .container {
@@ -134,4 +151,24 @@
     width: 90%;
     height: auto;
   }
+  /* banner-2-section */
+.banner-2-section{
+    background-color: #ffffff;
+    padding: 40px 20px;
+}
+.banner-2{
+    flex-direction: column;
+}
+.banner-2 div{
+    width: 100%;
+}
+.banner-2-text{
+    text-align: center;
+}
+.banner-2-text h1, .banner-2-text p{
+   margin: 15px 0;
+}
+.banner-2-text p{
+    margin: 30px 0;
+}
 }
