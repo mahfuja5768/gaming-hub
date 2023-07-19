@@ -77,7 +77,6 @@ a {
   font-size: 18px;
   font-weight: 600;
   color: #3c354f;
-
 }
 .follow-part {
   background-color: rgba(11, 2, 35, 0.1);
@@ -123,202 +122,212 @@ a {
   width: 100%;
   height: 500px;
 }
-.btns{
-    margin-top: 20px;
+.btns {
+  margin-top: 20px;
 }
-.btns button{
-    margin-right: 5px;
+.btns button {
+  margin-right: 5px;
 }
 
 /* banner-2-section */
-.banner-2-section{
-    background-color: #fff9fc;
-    padding: 40px 10px;
+.banner-2-section {
+  background-color: #fff9fc;
+  padding: 40px 10px;
 }
-.banner-2 div{
-    width: 50%;
+.banner-2 div {
+  width: 50%;
 }
-.banner-2-text{
-    text-align: end;
+.banner-2-text {
+  text-align: end;
 }
-.banner-2-text h1, .banner-2-text p{
-   margin: 10px 0;
+.banner-2-text h1,
+.banner-2-text p {
+  margin: 10px 0;
 }
-.banner-2-text p small{
-    font-size: 20px;
+.banner-2-text p small {
+  font-size: 20px;
 }
-.banner-2-text p strong{
-    font-size: 24px;
+.banner-2-text p strong {
+  font-size: 24px;
 }
 /* videos-section */
-.videos-section{
-    text-align: center;
-    padding: 40px 20px;
+.videos-section {
+  text-align: center;
+  padding: 40px 20px;
 }
-.videos-section h1{
-    margin: 20px 0;
+.videos-section h1 {
+  margin: 20px 0;
 }
-.videos-section p{
-    margin-bottom: 30px;
+.videos-section p {
+  margin-bottom: 30px;
 }
-.video-cards{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
+.video-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
 }
 
-.video-card p{
-    text-align: start;
-    padding: 10px 0;
+.video-card p {
+  text-align: start;
+  padding: 10px 0;
 }
-.content i{
-    font-size: 30px;
-    color: #fff;
+.content p {
+  color: #fa40a1;
+  font-size: 18px;
+  font-weight: 600;
 }
-.img-div{
-    position: relative;
+.content i {
+  font-size: 30px;
+  color: #fff;
 }
-.img-div img{
-    height: 100%;
-    width: 100%;
+.img-div {
+  position: relative;
 }
-.overlay{
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    opacity: 0;
-    transition: opacity 0.4s ease-in-out;
-    background: #000000be;
-    border: 3px solid #ff42a5;
-    cursor: pointer;
-    border-radius: 10px;
+.img-div img {
+  height: 100%;
+  width: 100%;
 }
-.content{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #fff;
-    text-align: center;
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+  background: #000000be;
+  border: 3px solid #ff42a5;
+  cursor: pointer;
+  border-radius: 10px;
 }
-.img-div:hover .overlay{
-    opacity: 0.8;
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+}
+.img-div:hover .overlay {
+  opacity: 0.8;
 }
 
 /* play-section */
-.play-section{
-    padding: 30px 20px;
+.play-section {
+  padding: 30px 20px;
 }
-.play-section-text{
-    text-align: right;
+.play-section-text {
+  text-align: right;
 }
-.play-section-text h1, .play-section-text p{
-   width: 70%;
-   margin-bottom: 20px;
+.play-section-text h1,
+.play-section-text p {
+  width: 70%;
+  margin-bottom: 20px;
 }
-.main-img{
-    width: 100%;
+.main-img {
+  width: 100%;
 }
 
-.play-section-img{
-    position: relative;
+.play-section-img {
+  position: relative;
 }
-.overlap-img img{
-    position: absolute;
-    width: 50%;
-    right: 75%;
-    top: 60%;
+.overlap-img img {
+  position: absolute;
+  width: 50%;
+  right: 75%;
+  top: 60%;
 }
 /* careers-section*/
-.careers-section{
-    background-color: #ff42a5;
-    padding: 50px 20px;
-    margin-top: 80px;
-    color: #fff;
+.careers-section {
+  background-color: #ff42a5;
+  padding: 50px 20px;
+  margin-top: 80px;
+  color: #fff;
 }
-.careers-contents div{
-    width: 60%;
+.careers-contents div {
+  width: 60%;
 }
-.careers-text p{
-    color: #fff;
-   padding: 20px 0;
+.careers-text p {
+  color: #fff;
+  padding: 20px 0;
 }
-.careers ul{
-    margin-right: 5px;
+.careers ul {
+  margin-right: 5px;
 }
-.btn-white{
-    background-color: #fff;
-    color: #ff42a5;
-    margin-top: 30px;
+.btn-white {
+  background-color: #fff;
+  color: #ff42a5;
+  margin-top: 30px;
 }
 /* games-types-section */
-.games-types-section{
-    background-color: #fff9fc;
-    padding: 80px 20px;
-    color: #000;
+.games-types-section {
+  background-color: #fff9fc;
+  padding: 80px 20px;
+  color: #000;
 }
-.games-types{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-    gap: 20px;
-    
+.games-types {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  gap: 20px;
 }
-.type{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #fff;
-    padding: 10px 15px;
-    border-radius: 50px;
-    cursor: pointer;
+.type {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px 15px;
+  border-radius: 50px;
+  cursor: pointer;
 }
-.type:hover{
-   border: 2px solid #ff42a5;
-   padding: 8px 13px;
-   color: #ff42a5;
+.type:hover {
+  border: 2px solid #ff42a5;
+  padding: 8px 13px;
+  color: #ff42a5;
 }
-.type img{
-    width: 50px;
-    margin-right: 20px;
+.type img {
+  width: 50px;
+  margin-right: 20px;
 }
-.type h4{
-    font-size: 20px;
-    font-weight: 600;
+.type h4 {
+  font-size: 20px;
+  font-weight: 600;
 }
 /* footer */
-footer{
+footer {
   background-color: #0b0223;
   color: #fff;
   text-align: center;
   margin: 0 auto;
   padding: 100px 20px;
-  
 }
-footer a{
+footer a {
   color: #fff;
 }
-.footer-flex{
+.footer-flex {
   display: flex;
   justify-content: center;
   align-content: center;
   flex-wrap: wrap;
 }
-.footer-contents ul, .social-icons, .copyright-section ul, .copyright-section p{
+.footer-contents ul,
+.social-icons,
+.copyright-section ul,
+.copyright-section p {
   margin-top: 35px;
 }
-.footer-contents ul li,  .copyright-section ul li, .social-icons i{
+.footer-contents ul li,
+.copyright-section ul li,
+.social-icons i {
   margin-left: 40px;
 }
-.footer-contents .logo-part img{
+.footer-contents .logo-part img {
   width: 10%;
 }
-.copyright-section p, .copyright-section ul li{
- color: #534d64;
- font-size: 16px;
- margin-top: 20px;
-
+.copyright-section p,
+.copyright-section ul li {
+  color: #534d64;
+  font-size: 16px;
+  margin-top: 20px;
 }
