@@ -288,3 +288,36 @@ a {
     font-size: 20px;
     font-weight: 600;
 }
+/* footer */
+footer{
+  background-color: #0b0223;
+  color: #fff;
+  text-align: center;
+  margin: 0 auto;
+  padding: 100px 20px;
+  
+}
+footer a{
+  color: #fff;
+}
+.footer-flex{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+.footer-contents ul, .social-icons, .copyright-section ul, .copyright-section p{
+  margin-top: 35px;
+}
+.footer-contents ul li,  .copyright-section ul li, .social-icons i{
+  margin-left: 40px;
+}
+.footer-contents .logo-part img{
+  width: 10%;
+}
+.copyright-section p, .copyright-section ul li{
+ color: #534d64;
+ font-size: 16px;
+ margin-top: 20px;
+
+}
