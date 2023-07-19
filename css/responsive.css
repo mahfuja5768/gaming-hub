@@ -116,6 +116,10 @@
     right: 75%;
     top: 60%;
 }
+/* careers-section*/
+.careers-contents div{
+    width: 100%;
+}
 }
 @media screen and (min-width: 577px) and (max-width: 992px) {
   .container {
@@ -133,6 +137,9 @@
     padding: 13px 23px;
     font-size: 15px;
     font-weight: 600;
+  }
+  .flex-between {
+    flex-direction: column;
   }
   /* header */
   /* nav */
@@ -229,5 +236,13 @@
     width: 45%;
     right: 75%;
     top: 60%;
+}
+/* careers-section*/
+.careers-contents div{
+    width: 100%;
+}
+.careers-text p{
+    color: #fff;
+   padding: 20px 0;
 }
 }

@@ -230,3 +230,25 @@ a {
     right: 75%;
     top: 60%;
 }
+/* careers-section*/
+.careers-section{
+    background-color: #ff42a5;
+    padding: 50px 20px;
+    margin-top: 80px;
+    color: #fff;
+}
+.careers-contents div{
+    width: 60%;
+}
+.careers-text p{
+    color: #fff;
+   padding: 20px 0;
+}
+.careers ul{
+    margin-right: 5px;
+}
+.btn-white{
+    background-color: #fff;
+    color: #ff42a5;
+    margin-top: 30px;
+}
